@@ -1,0 +1,107 @@
+
+
+<mat-card class="head-card">
+
+  <p class="head-text">Weather in your city</p>
+
+  <form method="post" (ngSubmit)="this.weather = []" class="example-form">
+    <mat-form-field appearance="legacy" class="example-full-width">
+      <mat-card>
+
+        <div class="header-column"> <input matInput type="text" name="cityName" id="cityName"
+            placeholder="Your City Name" </div>
+        <mat-icon matSuffix (click)=" this.weather = []" class="ion-android-search"></mat-icon>
+
+      </mat-card>
+
+    </mat-form-field>
+
+  </form>
+
+
+  <li *ngFor="let w of weather" class="card-weather">
+    <hr>
+    <p class="weather-text">Weather in {{w.name}}, {{w.sys.country}}</p>
+    <p class="date-text">{{today | date:'hh:mm LLL d'}}</p>
+
+    <mat-card>
+
+      <mat-card class="weather-temp">
+        <p class="card-back">{{w.main.temp.toFixed(1)}}°С</p>
+
+        <div class="column card-icon">
+
+          <img src="https://openweathermap.org/img/w/{{w.weather[0].icon}}.png">
+
+          <p>{{w.weather[0].main}}</p>
+
+        </div>
+      </mat-card>
+      <div class="column">
+
+        <p>Max.</p>
+        <p>Min.</p>
+        <p>Sunrise.</p>
+        <p>Sunset.</p>
+      </div>
+      <div class="column">
+
+        <p class="card-result">{{w.main.temp_max.toFixed(1)}}</p>
+
+        <p class="column card-result1">{{w.main.temp_min.toFixed(1)}}</p>
+
+
+        <p>{{(w.sys.sunrise * 1000)  + (w.timezone * 60) |date:'HH:mm'  }}</p>
+
+        <p>{{(w.sys.sunset * 1000)  + (w.timezone * 60) |date:'HH:mm' }}</p>
+
+      </div>
+
+      <div class="card-textside">
+        <hr>
+        <hr>
+      </div>
+
+      <div class="column ">
+        <p class="card-textside">5 day weather forecast</p>
+      </div>
+      <div class="column ">
+        <p class="date-text2">every 3 hours</p>
+      </div>
+
+
+  <li *ngFor="let f of forecast" class="card-forecast">
+
+    <mat-card>
+
+      <div class="weather-column">
+
+        <p class="date-text1">{{f.dt_txt | date:'EEE d LLL'}}</p>
+        <p class="date-text2">{{f.dt_txt | date:'hh:mm '}}</p>
+
+      </div>
+
+
+      <div class="weather-column">
+
+        <p> <img src="https://openweathermap.org/img/w/{{f.weather[0].icon}}.png">{{f.weather[0].main}}</p>
+
+      </div>
+
+      <div class="weather-column card-resultside">
+        <p>{{f.main.temp_max.toFixed(1)}} °C</p>
+      </div>
+
+      <div class="weather-column card-result1">
+        <p>{{f.main.temp_min.toFixed(1)}} °C</p>
+      </div>
+
+    </mat-card>
+
+  </li>
+
+</mat-card>
+
+</li>
+
+  <router-outlet></router-outlet>

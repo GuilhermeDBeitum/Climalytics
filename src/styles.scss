@@ -1,0 +1,309 @@
+.example-form {
+  min-width: 100px;
+  max-width: 400px;
+  height: 80px;
+  margin: auto;
+  font-size: 16px;
+  position: relative;
+  border-radius: 35px;
+  margin-bottom: 35px;
+}
+
+.example-full-width {
+  width: 90%;
+  margin-left: 20px;
+}
+
+.ion-android-search {
+  font-family: Ionicons;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #39a3db;
+
+}
+
+.head-card {
+  background-color: rgb(18, 157, 212);
+  height: 250px;
+}
+
+.head-text {
+  padding: 20px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.weather-text {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #3c3c3c;
+}
+
+.date-text {
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3c3c3c;
+  text-align: center;
+}
+
+.date-text1 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3c3c3c;
+}
+
+.date-text2 {
+  opacity: 0.5;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3c3c3c;
+}
+
+
+.card-textside {
+  font-family: Roboto;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #3c3c3c;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.column {
+  width: calc(100% / 3);
+  display: inline-block;
+}
+
+.header-column {
+  width: calc(175% / 2);
+  display: inline-block;
+}
+
+.weather-column {
+  width: calc(50% / 2);
+  display: inline-block;
+}
+
+.sun-column {
+  width: calc(250% / 2);
+  display: inline-block;
+}
+
+.card-list {
+  list-style: none;
+  max-width: 500px;
+  height: 150px;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+.card-weather {
+  list-style: none;
+  max-width: 800px;
+  max-height: 540px;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+  margin: auto;
+
+}
+
+.card-forecast {
+  list-style: none;
+  max-width: 700px;
+  height: 110px;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+  margin: auto;
+
+}
+
+
+.card-name {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #39a3db;
+}
+
+.card-sun {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  position: relative;
+  color: #39a3db;
+  margin-left: 30px;
+}
+
+.card-temp {
+  float: left;
+  border-radius: 4px;
+  border: solid 1px #f0f0f0;
+  background-color: #f0f0f0;
+  width: 82px;
+  height: 46px;
+  opacity: 0.75;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3c3c3c;
+}
+
+.card-max {
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgb(0, 0, 0);
+
+}
+
+.card-result {
+  width: 53px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #b30000;
+}
+
+.card-result1 {
+  width: 53px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a90e2;
+}
+
+
+.card-resultside {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #b30000;
+}
+
+.card-icon {
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+  opacity: 0.75;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+
+}
+
+.weather-temp {
+  float: left;
+  width: 150px;
+  height: 127px;
+  opacity: 0.75;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #3c3c3c;
+  margin: 30px;
+}
+
+.weather-max {
+  width: 250px;
+  opacity: 0.75;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin: auto;
+
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #f6f6f6;
+
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
