@@ -26,6 +26,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+## description
+
+Meterological APP developed for the Company Labs.
+
 ## Preview
 
 <img width="794" alt="whater1" src="https://user-images.githubusercontent.com/54703843/90325385-62bb2b80-df51-11ea-85ee-46e9b9d31eab.png">
