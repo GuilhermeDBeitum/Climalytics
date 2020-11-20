@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "climaticalytics",
     "public": "www",
     "ignore": [
       "firebase.json",

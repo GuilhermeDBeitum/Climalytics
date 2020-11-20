@@ -8,7 +8,7 @@ import { WeatherForecastService } from './weather-forecast.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.findCity.html',
-  inputs: ['item.cityName']
+  inputs: ['item.cityName'] 
 })
 
 export class AppComponent implements OnInit {

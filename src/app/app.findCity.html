@@ -8,7 +8,10 @@
 
         <div class="header-column"> <input matInput type="text" name="cityName" id="cityName"
             placeholder="Your City Name" [(ngModel)]="item.city"> </div>
-        <mat-icon matSuffix (click)="send(item.city) ; this.weather = []" class="ion-android-search"></mat-icon>
+            <mat-icon (click)="send(item.city) ; this.weather = []" class="search"> <span class="material-icons">
+              search
+              </span></mat-icon>
+        
 
       </mat-card>
 

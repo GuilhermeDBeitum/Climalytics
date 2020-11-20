@@ -1,7 +1,7 @@
 .example-form {
   min-width: 100px;
   max-width: 400px;
-  height: 80px;
+  height: 95px;
   margin: auto;
   font-size: 16px;
   position: relative;
@@ -14,9 +14,10 @@
   margin-left: 20px;
 }
 
-.ion-android-search {
-  font-family: Ionicons;
-  font-size: 24px;
+.search {
+  cursor: pointer;
+  margin-left: 4px;
+  font-size: 32px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
