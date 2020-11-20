@@ -23,7 +23,6 @@
   line-height: normal;
   letter-spacing: normal;
   color: #39a3db;
-
 }
 
 .head-card {
@@ -91,7 +90,6 @@
   color: #3c3c3c;
 }
 
-
 .card-textside {
   font-family: Roboto;
   padding: 20px;
@@ -140,19 +138,16 @@
   border-radius: 4px;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
   margin: auto;
-
 }
 
 .card-forecast {
   list-style: none;
   max-width: 700px;
-  height: 110px;
+  height: 115px;
   border-radius: 4px;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
   margin: auto;
-
 }
-
 
 .card-name {
   font-family: Roboto;
@@ -206,7 +201,6 @@
   line-height: normal;
   letter-spacing: normal;
   color: rgb(0, 0, 0);
-
 }
 
 .card-result {
@@ -235,7 +229,6 @@
   color: #4a90e2;
 }
 
-
 .card-resultside {
   font-family: Roboto;
   font-size: 16px;
@@ -248,9 +241,9 @@
 }
 
 .card-icon {
-  width: 70px;
-  height: 70px;
-  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
   opacity: 0.75;
   font-family: Roboto;
   font-size: 14px;
@@ -261,7 +254,6 @@
   letter-spacing: normal;
   text-align: center;
   color: #000;
-
 }
 
 .weather-temp {
@@ -293,17 +285,35 @@
   letter-spacing: normal;
   text-align: left;
   margin: auto;
-
 }
 
 html,
 body {
   height: 100%;
   background-color: #f6f6f6;
-
 }
 
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+@media (max-width: 600px) {
+  .card-temp {
+    float: left;
+    border-radius: 4px;
+    border: solid 1px #f0f0f0;
+    background-color: #f0f0f0;
+    width: 42px;
+    height: 32px;
+    opacity: 0.75;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3c3c3c;
+  }
 }

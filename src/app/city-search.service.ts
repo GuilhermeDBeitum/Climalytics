@@ -14,12 +14,14 @@ export class CitySearchService {
   citiesUrl = 'https://api.openweathermap.org/data/2.5/find?'
   appId= 'appid=76d1b43ba3695cfae59aa9f7dc9b4877'
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) {}  
 
 send(item:any) {
   let url = new String(this.citiesUrl);
   url = url.concat("q=",item, "&", this.appId, "&units=metric");
-  return this.http.get<Array<[any]>>(url.toString())
+  return this.http.get<[]>(url.toString())
+  
+  
 
   // this.emitCities.emit(item)
 }

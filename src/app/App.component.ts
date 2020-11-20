@@ -4,6 +4,7 @@ import { CitySearchService } from './city-search.service';
 import { CurrentWeatherService } from './current-weather.service';
 import { WeatherForecastService } from './weather-forecast.service';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.findCity.html',
@@ -11,6 +12,8 @@ import { WeatherForecastService } from './weather-forecast.service';
 })
 
 export class AppComponent implements OnInit {
+
+  data:any;
 
   item: any;
 
@@ -24,7 +27,7 @@ export class AppComponent implements OnInit {
 
   today: number = Date.now();
 
-
+ 
 
   constructor(private citySearchService: CitySearchService, private currentWeatherService: CurrentWeatherService, private weatherForecastService : WeatherForecastService){}
 
@@ -36,8 +39,12 @@ ngOnInit(){
 
 send(item : any,){
 
-  this.citySearchService.send(item).subscribe(response => { let {list} = response ;  this.cities = list})
-    };
+
+  
+  this.citySearchService.send(item).subscribe(response => { this.data = response;  this.cities = this.data.list})
+     
+    }
+
 
   idWeather(cityid : any){
 
@@ -48,7 +55,7 @@ send(item : any,){
     listForecast(cityid : any){
 
 
-     return this.weatherForecastService.listForecast(cityid).subscribe(response => { this.forecast = response.list})
+     return this.weatherForecastService.listForecast(cityid).subscribe(response => {  this.data = response; this.forecast = this.data.list})
 
       };
 }
