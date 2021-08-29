@@ -1,4 +1,4 @@
-# app_climalytics
+# App Climalytics
 
 ## Preview
 
