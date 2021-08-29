@@ -1,3 +1,10 @@
+
+## Preview
+
+<img width="794" alt="whater1" src="https://user-images.githubusercontent.com/54703843/90325385-62bb2b80-df51-11ea-85ee-46e9b9d31eab.png">
+<img width="794" alt="whater2" src="https://user-images.githubusercontent.com/54703843/90325387-651d8580-df51-11ea-94ea-7142790e7614.png">
+<img width="811" alt="whater3" src="https://user-images.githubusercontent.com/54703843/90325390-677fdf80-df51-11ea-84d3-dfdedde52ebd.png">
+
 # Hcode
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
@@ -30,11 +37,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Meterological APP developed for the Company Labs.
 
-## Preview
-
-<img width="794" alt="whater1" src="https://user-images.githubusercontent.com/54703843/90325385-62bb2b80-df51-11ea-85ee-46e9b9d31eab.png">
-<img width="794" alt="whater2" src="https://user-images.githubusercontent.com/54703843/90325387-651d8580-df51-11ea-94ea-7142790e7614.png">
-<img width="811" alt="whater3" src="https://user-images.githubusercontent.com/54703843/90325390-677fdf80-df51-11ea-84d3-dfdedde52ebd.png">
 
 
 
